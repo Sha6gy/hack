@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    background-color: #efefef;
+    padding: 0 50px 0 50px ;
+}
+#inicio{
+    background-image: url('./src/assets/ocean.mp4');
+}
+
+
+main h1{
+
+    color:rgba(255, 255, 255, 0.9);
+    text-shadow: 3px 5px 5px gainsboro;
+    float: none;
+    /*text-align: center;*/
+    /*padding: 180px;*/
+
+}
+
+a:visited{
+    color: gray;
+ 
+}
+
+a:hover{
+    color: blueviolet;
+
+}
+a:active{
+    color: aqua;
+}
+ 
+ul{
+    border: 10px 200px 10px 200px    ;
+    padding: 5px 190px 5px 190px;
+    margin: 0px 150px 0px 150px;
+    display:flex;  
+    list-style: none;    
+    width: 400px;
+}
+#seccion1{
+    background-image: url("./src/assets/problem.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 310px;
+    width: 167px;
+}
+#problemtext{
+    height: 310px;
+    width: 800px;
+    padding: 0 0 0 180px;
+
+}
+#seccion2{
+    background-image: url("./src/assets/afectacion.png");
+    background-repeat: no-repeat;
+    background-position:right;
+    height: 290px;
+    width: 800px;
+}
+#afectacionestexto{
+    height: 310px;
+    width: 600px;
+    padding: 0 180px 0 0;
+}
+
