@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang= "es">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="./../../sargazo.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://kit.fontawesome.com/b0ab042d33.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./../../style.css"/>
+    <title>Sargassum</title>
+</head>
+<body>
+    <nav>
+    <ul>
+        <li><a href="./../../index.html">Inicio</a></li>
+        <li><a href="./reporte.html">Reporte</a></li>
+        <li><a href="./donations.html">Donaciones</a></li>
+        <li><a href="./info.html">Información Adicional</a></li>
+        <li><a href="./myaccount.html" class="active">Mi Cuenta</a></li>
+        <li><a href="./enterprise.html">Empresas</a></li>
+        <i class="fa-solid fa-bars navIcon"></i>
+        <i class="fa-solid fa-x navIcon"></i>
+    </ul>
+    </nav>
+    <main class="createaccount">
+    <h1 class="h1">Crear cuenta</h1>
+    <div class="createaccount">
+    <form action="crearCuenta">
+        <section></section>
+            <label for="usuario" name="propiedad" id="propiedad" class="propiedad">Nombre de la Empresa: </label>
+            <input type="text" name="propiedad" id="propiedad" class="propiedad" placeholder="Empresa o Persona">
+        </section>
+        <section>   
+            <label for="direccion" name="direccion" id="direccion" class="direccion">Dirección: </label>
+            <input type="text" name="direccion" id="direccion" class="direccion" placeholder="Dirección">
+        </section>
+        <section>
+            <label for="municipio" name="municipio" id="municipio" class="municipio">Municipio: </label>
+            <input type="text" name="municipio" id="municipio" class="municipio" placeholder="Municipio">
+        </section>
+        <section>
+            <label for="estado" name="estado" id="estado" class="estado">Estado: </label>
+            <input type="text" name="estado" id="estado" class="estado" placeholder="Estado">
+        </section>
+        <section>
+            <label for="cp" name="cp" id="cp" class="cp">Código Postal: </label>
+            <input type="tel" name="cp" id="cp" class="cp" placeholder="Código Postal">
+        </section>
+        <section>
+            <label for="contacto" name="contacto" id="contacto" class="contacto">Teléfono de Contacto: </label>
+            <input type="tel" name="contacto" id="contacto" class="contacto" placeholder="Teléfono de Contacto">
+        </section>
+        <section>
+        <label for="correo" name="correo" id="correo" class="correo">Correo Electrónico: </label>
+        <input type="email" name="correo" id="correo" class="correo" placeholder="Correo Electrónico">
+        </section>
+        <section>
+            <label for="password" name="password" id="password" class="password">Contraseña: </label>
+            <input type="password" name="password" id="password" class="password" placeholder="Contraseña">
+        </section>
+        <section>
+            <label for="password" name="password" id="password" class="password">confirmar contraseña: </label><!--linea agregada-->
+            <input type="password" name="password" id="password" class="password" placeholder="confirmarcontraseña"><!--linea agregada-->
+        </section>
+        <button type="submit">Crear cuenta</button>
+    </form>
+    <h1>Ya tengo cuenta</h1>
+    <input type="user" name="usuario" id="usuario" class="usuario" placeholder="Correo Electrónico">
+    <input type="password" name="contrasena" id="contrasena" class="contrasena" placeholder="Contraseña">
+    <button type="submit">
+        <a href="./myaccount.html">Iniciar Sesión</a>
+    </button>
+    </div>
+    </main>
+    <footer>
+        <section>
+            <a href="#homepage">Home</a>
+            <a href="=mailto:sargassum@gmail.com">Correo de contacto</a>
+        </section>
+            <p>Copyright 2022</p>
+    </footer>
+</body>
+</html>
