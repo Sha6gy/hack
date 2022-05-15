@@ -1,0 +1,101 @@
+/*Paleta de Colores*/
+* {
+    --color-principal: rgb(1, 104, 112);
+    --color-secundario: rgb(3, 83, 120);
+    --color-terciario: rgb(109, 163, 199);
+    --color-quaternario: rgb(178, 192, 203);
+    --color-quinto: rgb(9, 202, 199);
+}
+
+body{
+    margin: 0;
+    background: var(--color-terciario);
+}
+nav {
+    background-color: var(--color-principal);
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    box-shadow: 0 0 5px #000;
+}
+nav > ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav > ul > li > a {
+    margin: 0 10px;
+    text-decoration: none;
+    padding: 15px;
+    color: aqua;
+}
+.navIcon {
+    display: none;
+}
+main h1{
+
+    color:rgba(255, 255, 255, 0.9);
+    text-shadow: 3px 5px 5px gainsboro;
+    padding: 50px 0 0 0;
+    width: 100px;
+    margin: 0 auto;
+}
+.reportform{
+    width: 400px;
+    margin: 0 auto;
+}
+.donateform{
+    width: 400px;
+    margin: 0 auto;
+}
+.account{
+    border: 500px 0 500px 0;
+}
+a:visited{
+    color: gray;
+
+}
+
+a:hover{
+    color: blueviolet;
+
+}
+a:active{
+    color: aqua;
+}
+
+
+
+main button:hover{
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, .5);
+    transition: box-shadow 0.3s ease;
+
+}   
+footer{
+    background-color: var(--color-principal);
+    padding: 40px 20px 0 20px;
+    height: 50px;
+    width: 100%;
+    color:black;
+    box-shadow: 0 0 5px #000;
+}     
+footer section{
+    float: right;
+}
+footer p{
+    margin:0
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: cornflowerblue;
+    transition: color 0.3s ease;
+}
