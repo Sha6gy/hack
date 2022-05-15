@@ -7,13 +7,13 @@
     <link rel="icon" href="./sargazo.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <script src="https://kit.fontawesome.com/b0ab042d33.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./style.css"/> 
+    <link rel="stylesheet" href="style2.css"/> 
     <title>Sargassum</title>
   </head>
   <body>
     <nav>
       <ul>
-        <li><a href="index.html" class="active">Inicio</a></li>
+        <li><a href="index.html">Inicio</a></li>
         <li><a href="./src/views/reporte.html">Reporte</a></li>
         <li><a href="./src/views/donations.html">Donaciones</a></li>
         <li><a href="./src/views/info.html">Información Adicional</a></li>
@@ -35,21 +35,67 @@
         <h2>Actualizaciones</h2>
         <div>
         <h3>Que estamos haciendo actualmente</h3>
-        <div class="containerImagenes" id="containerImagenes">
-          <img src="./src/assets/carrete1.png" alt="Recolectando Sargazo">
-          <img src="./src/assets/carrete2.png" alt="Recolectando Sargazo">
-          <img src="./src/assets/carrete3.png" alt="Recolectando Sargazo">
-          <img src="./src/assets/carrete4.png" alt="Recolectando Sargazo">
+        <div class="containerCarrusel" id="containerCarrusel">
+          <div class="itemContainer1" id="itemContainer1">
+            <div class="imagenCarrusel" id="imagenCarrusel">
+              <img src="./src/assets/carrete1.png" alt="Recolectando Sargazo">
+            </div>
+            <div class="flechasCarrusel" id="flechasCarrusel">
+              <a href="#itemContainer4">
+                <i class="fa-solid fa-angle-left"></i>
+              </a>
+              <a href="#itemContainer2">
+                <i class="fa-solid fa-angle-right"></i>
+              </a>
+            </div>   
+          </div>
+          <div class="itemContainer2" id="itemContainer2">
+            <div class="imagenCarrusel" id="imagenCarrusel">
+              <img src="./src/assets/carrete2.png" alt="Recolectando Sargazo">
+            </div>
+            <div class="flechasCarrusel" id="flechasCarrusel">
+              <a href="#itemContainer1">
+                <i class="fa-solid fa-angle-left"></i>
+              </a>
+              <a href="#itemContainer3">
+                <i class="fa-solid fa-angle-right"></i>
+              </a>
+            </div>
+          </div>
+          <div class="itemContainer3" id="itemContainer3">
+            <div class="imagenCarrusel" id="imagenCarrusel">
+              <img src="./src/assets/carrete3.png" alt="Recolectando Sargazo">
+            </div>
+            <div class="flechasCarrusel" id="flechasCarrusel">
+              <a href="#itemContainer2">
+                <i class="fa-solid fa-angle-left"></i>
+              </a>
+              <a href="#itemContainer4">
+                <i class="fa-solid fa-angle-right"></i>
+              </a>
+            </div>
+          </div>
+          <div class="itemContainer4" id="itemContainer4">
+            <div class="imagenCarrusel" id="imagenCarrusel">
+              <img src="./src/assets/carrete4.png" alt="Recolectando Sargazo">
+            </div>
+            <div class="flechasCarrusel" id="flechasCarrusel">
+              <a href="#itemContainer3">
+                <i class="fa-solid fa-angle-left"></i>
+              </a>
+              <a href="#itemContainer1">
+                <i class="fa-solid fa-angle-right"></i>
+              </a>
+            </div>
+          </div>
         </div>
         <div class="secciones" id="secciones">
           <div class="seccion" id="seccion1">
             <h3>Problematica</h3>
-            <!-- <img src="./src/assets/problem.png" alt="" class="problem"> -->
             <p id="problemtext">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           </div>
           <div class="seccion" id="seccion2">
             <h3>Afectaciones</h3>
-            <!-- <img src="./src/assets/afectacion.png" alt=""> -->
             <p id="afectacionestexto">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           </div>
           <div class="seccion" id="seccion3">
@@ -63,16 +109,15 @@
             </div>
             <div class="seccion" id="seccion4">
               <h3>Información adicional</h3>
-              <!-- <img src="./src/assets/sargazo1.png" alt=""> -->
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <p id="aditionalinfo">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
               <button>
                 <a href="./src/views/info.html">INFORMACION</a>
               </button>
             </div>
-            <div class="seccion" id="seccion4">
+            <div class="seccion" id="seccion5"><!--"se cambio a seccion5" antes contenia "seccion4"-->
               <h3>Reporte</h3>
-              <img src="./src/assets/ubicacion.png" alt="">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <img id="img" src="./src/assets/ubicacion.png" alt="">
+              <p id="reportetexto">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
               <button>
                 <a href="./src/views/reporte.html">REPORTE</a>
               </button>
@@ -82,5 +127,12 @@
         
       </section>
     </main>
+    <footer>
+        <section>
+        <a href="#homepage">Home</a>
+        <a href="=mailto:sargassum@gmail.com">Correo de contacto</a>
+      </section>
+        <p>Copyright 2022</p>
+      </footer>
   </body>
 </html>
