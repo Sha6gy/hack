@@ -232,6 +232,7 @@ main > section > video {
 .account{
     border: 500px 0 500px 0;
 }
+
 /* Agregado de estilos para la seccion de infromacion, reporte y footer asi como 
 animaciones de hover y transiciones*/
 section button:hover{
@@ -264,4 +265,9 @@ footer a{
 footer a:hover {
     color: cornflowerblue;
     transition: color 0.3s ease;
+}
+/* nuevos estilos para formulario create account */
+.createaccount{
+    width: 400px;
+    margin: 0 auto;
 }
