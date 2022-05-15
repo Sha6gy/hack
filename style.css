@@ -7,16 +7,31 @@ body{
     background-image: url('./src/assets/ocean.mp4');
 }
 
+#background-video {
+    width: 854px;
+    height: 480px;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
 
-main h1{
-
+h1{
     color:rgba(255, 255, 255, 0.9);
     text-shadow: 3px 5px 5px gainsboro;
-    float: none;
+    text-align: center;
+    padding: 0 0 0 0;
     /*text-align: center;*/
     /*padding: 180px;*/
 
 }
+h1 {
+    font-size: 6rem;
+    margin-top: 30vh; 
+  }
 
 a:visited{
     color: gray;
@@ -48,8 +63,8 @@ ul{
 }
 #problemtext{
     height: 310px;
-    width: 800px;
-    padding: 0 0 0 180px;
+    width: 650px;
+    padding: 0 0 0 200px;
 
 }
 #seccion2{
@@ -57,11 +72,31 @@ ul{
     background-repeat: no-repeat;
     background-position:right;
     height: 290px;
-    width: 800px;
+    width: 854px;
 }
 #afectacionestexto{
     height: 310px;
     width: 600  px;
     padding: 0 180px 0 0;
+}
+#seccion4{
+    background-image: url("./src/assets/sargazo1.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 225px;
+    width: 854px;
+}
+#aditionalinfo{
+    height: 0px;
+    width: 600  px;
+    padding: 0 220px 0 0 ;
+}
+
+#img{
+    padding: 0 0 0 200px;
+}
+#reportetexto{
+    width: 854px;
+    padding: 0 px 0 0;
 }
 
