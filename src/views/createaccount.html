@@ -26,25 +26,46 @@
         <i class="fa-solid fa-x navIcon"></i>
     </ul>
     </nav>
-    <main>
+    <main class="createaccount">
     <h1 class="h1">Crear cuenta</h1>
+    <div class="createaccount">
     <form action="crearCuenta">
-        <label for="usuario" name="propiedad" id="propiedad" class="propiedad">Nombre de la Empresa: </label>
-        <input type="text" name="propiedad" id="propiedad" class="propiedad" placeholder="Empresa o Persona">
-        <label for="direccion" name="direccion" id="direccion" class="direccion">Dirección: </label>
-        <input type="text" name="direccion" id="direccion" class="direccion" placeholder="Dirección">
-        <label for="municipio" name="municipio" id="municipio" class="municipio">Municipio: </label>
-        <input type="text" name="municipio" id="municipio" class="municipio" placeholder="Municipio">
-        <label for="estado" name="estado" id="estado" class="estado">Estado: </label>
-        <input type="text" name="estado" id="estado" class="estado" placeholder="Estado">
-        <label for="cp" name="cp" id="cp" class="cp">Código Postal: </label>
-        <input type="tel" name="cp" id="cp" class="cp" placeholder="Código Postal">
-        <label for="contacto" name="contacto" id="contacto" class="contacto">Teléfono de Contacto: </label>
-        <input type="tel" name="contacto" id="contacto" class="contacto" placeholder="Teléfono de Contacto">
+        <section></section>
+            <label for="usuario" name="propiedad" id="propiedad" class="propiedad">Nombre de la Empresa: </label>
+            <input type="text" name="propiedad" id="propiedad" class="propiedad" placeholder="Empresa o Persona">
+        </section>
+        <section>   
+            <label for="direccion" name="direccion" id="direccion" class="direccion">Dirección: </label>
+            <input type="text" name="direccion" id="direccion" class="direccion" placeholder="Dirección">
+        </section>
+        <section>
+            <label for="municipio" name="municipio" id="municipio" class="municipio">Municipio: </label>
+            <input type="text" name="municipio" id="municipio" class="municipio" placeholder="Municipio">
+        </section>
+        <section>
+            <label for="estado" name="estado" id="estado" class="estado">Estado: </label>
+            <input type="text" name="estado" id="estado" class="estado" placeholder="Estado">
+        </section>
+        <section>
+            <label for="cp" name="cp" id="cp" class="cp">Código Postal: </label>
+            <input type="tel" name="cp" id="cp" class="cp" placeholder="Código Postal">
+        </section>
+        <section>
+            <label for="contacto" name="contacto" id="contacto" class="contacto">Teléfono de Contacto: </label>
+            <input type="tel" name="contacto" id="contacto" class="contacto" placeholder="Teléfono de Contacto">
+        </section>
+        <section>
         <label for="correo" name="correo" id="correo" class="correo">Correo Electrónico: </label>
         <input type="email" name="correo" id="correo" class="correo" placeholder="Correo Electrónico">
-        <label for="password" name="password" id="password" class="password">Contraseña: </label>
-        <input type="password" name="password" id="password" class="password" placeholder="Contraseña">
+        </section>
+        <section>
+            <label for="password" name="password" id="password" class="password">Contraseña: </label>
+            <input type="password" name="password" id="password" class="password" placeholder="Contraseña">
+        </section>
+        <section>
+            <label for="password" name="password" id="password" class="password">confirmar contraseña: </label><!--linea agregada-->
+            <input type="password" name="password" id="password" class="password" placeholder="Contraseña"><!--linea agregada-->
+        </section>
         <button type="submit">Crear cuenta</button>
     </form>
     <h1>Ya tengo cuenta</h1>
@@ -53,6 +74,7 @@
     <button type="submit">
         <a href="./myaccount.html">Iniciar Sesión</a>
     </button>
+    </div>
     </main>
     <footer>
         <section>
