@@ -6,6 +6,7 @@
     --color-quaternario: rgb(178, 192, 203);
     --color-quinto: rgb(9, 202, 199);
     --color-sexto: rgb(255, 255, 255);
+    --color-secciones: rgba(178, 192, 203, 0.342);
 }
 
 body{
@@ -73,8 +74,19 @@ nav > ul > li > a:active {
     display: none;
 }
 
-/*index.html*/
+.h1{
 
+    color:rgba(255, 255, 255, 0.9);
+    text-shadow: 3px 5px 5px gainsboro;
+    padding: 70px 0 0 0;
+    width: 100px;
+    margin: 0 auto;
+}
+main button:hover{
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, .5);
+    transition: box-shadow 0.3s ease;
+} 
+/*index.html*/
 .header {
     position: relative;
     align-items: center;
@@ -124,9 +136,29 @@ main > section > video {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: var(--color-sexto);
+    color: var(--color-secundario);
+}
+.divisor2 {
+    position: absolute;
+    height: 30px;
+    padding: 3px 5px;
+    border-radius: 50%;
+    right: 0;
+    bottom: -610px;
+    margin-right: 25px;
+    font-size: 30px;
+    background: var(--color-sexto);
 }
 /*Secciones*/
+.secciones {
+    width: auto;
+    margin-left: 170px;
+    margin-right: 170px;
+    background-color: var(--color-secciones);
+    margin-top: 120px;
+    padding: 20px;
+    border-radius: 15px;
+}
 #seccion1{
     background-image: url("./src/assets/problem.png");
     background-repeat: no-repeat;
@@ -137,19 +169,12 @@ main > section > video {
     height: 310px;
     width: 800px;
     padding: 0 0 0 180px;
-
-}
-.secciones {
-    width: auto;
-    margin-left: 170px;
-    margin-right: 170px;
 }
 #seccion2{
     background-image: url("./src/assets/afectacion.png");
     background-repeat: no-repeat;
     background-position:right;
     height: 290px;
-    
 }
 #afectacionestexto{
     height: 100px;
@@ -194,14 +219,24 @@ main > section > video {
     cursor: pointer;
     transform: translateY(-5px);
 }
+
+/*Formularios*/
+.reportform{
+    width: 400px;
+    margin: 0 auto;
+}
+.donateform{
+    width: 400px;
+    margin: 0 auto;
+}
+.account{
+    border: 500px 0 500px 0;
+}
 /* Agregado de estilos para la seccion de infromacion, reporte y footer asi como 
 animaciones de hover y transiciones*/
-
-
 section button:hover{
     box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, .5);
     transition: box-shadow 0.3s ease;
-
 }   
 footer{
     background-color: var(--color-principal);
